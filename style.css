@@ -1,0 +1,111 @@
+body{
+  margin:0px;
+  background-image:url( ' https://i.pinimg.com/564x/9f/0e/cf/9f0ecf4b85ae2bfb4d46ddee7a7a7d1f.jpg ' );
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  width:100%;
+  height:900px;
+  
+}
+.head{
+  background-color:#607d8b;
+  font-size:20px;
+  color:white;
+  font-family:monospace;
+  dispaly:flex;
+  flex-direction:row;
+}
+
+ 
+.face{
+  margin-top:10px;
+  border:3px #5d4037 solid;
+  border-radius:50px;
+}
+.face:hover{
+  cursor:pointer;
+}
+.Title1{
+  font-weight:bold;
+  font-size:20px;
+  margin:8px;
+  font-family:monospace;
+  color:brown;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background:green;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(25px 25px, circle, #80cbc4 , #26a69a);
+  background: -moz-radial-gradient(25px 25px, circle, #26a69a, #000);
+  background: radial-gradient(25px 25px, circle, red, #000);
+ 
+ 
+  -webkit-animation: spin 1000ms, moveLeftToRight 5s ;
+  -moz-animation: spin 1000ms , moveLeftToRight 5s ;
+  -ms-animation: spin 1000ms , moveLeftToRight 5s ;
+  animation: spin 1000ms , moveLeftToRight 5s ;
+  
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  
+  position: absolute;
+  margin-bottom:0px;
+  left: 0;
+}
+
+
+.contents{
+  margin:10px;
+  width:600px;
+  height:900px;
+  background-color:#ffe0b2;
+  border-radius:15px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+.content{
+  width:100%;
+  height:200px;
+  margin-left:10px;
+  font-family:Microsoft JhengHei;
+ 
+}
+.intro{
+  margin:8px;
+  font-family:Microsoft JhengHei;
+  padding-left:10px;
+}
+.Title2{
+  font-weight:bold;
+  font-size:20px;
+  margin:8px;
+  font-family:monospace;
+  color:brown;
+}
+.school{
+  margin:8px;
+  font-family:Microsoft JhengHei;
+  padding-left:10px;
+}
+.Title3{
+  font-weight:bold;
+  font-size:20px;
+  margin:8px;
+  font-family:monospace;
+  color:brown;
+}
+.club{
+  margin:8px;
+  font-family:Microsoft JhengHei;
+  padding-left:10px;
+}
+.picture{
+  padding-left:8px;
+}
